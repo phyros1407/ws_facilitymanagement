@@ -14,4 +14,5 @@ public class WsFacilitymanagementApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(WsFacilitymanagementApplication.class, args);
 	}
+
 }
