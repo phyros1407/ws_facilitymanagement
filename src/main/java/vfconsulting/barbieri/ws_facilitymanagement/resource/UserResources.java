@@ -16,7 +16,6 @@ public class UserResources{
     @Autowired
     private UserMapper userMapper;
 
-
     @GetMapping("/all")
     public List<UserModel> obtenerUsuarios(){
         return userMapper.obtenerUsuarios();
