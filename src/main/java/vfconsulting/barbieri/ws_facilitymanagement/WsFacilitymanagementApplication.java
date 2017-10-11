@@ -9,7 +9,7 @@ import vfconsulting.barbieri.ws_facilitymanagement.model.UserModel;
 @MappedTypes(UserModel.class)
 @MapperScan("vfconsulting.barbieri.ws_facilitymanagement.mapper")
 @SpringBootApplication
-public class WsFacilitymanagementApplication {
+public class WsFacilitymanagementApplication{
 
 	public static void main(String[] args) {
 		SpringApplication.run(WsFacilitymanagementApplication.class, args);
