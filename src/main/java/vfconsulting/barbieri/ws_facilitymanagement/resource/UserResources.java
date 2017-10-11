@@ -13,8 +13,12 @@ import java.util.List;
 @RequestMapping("/rest/user")
 public class UserResources{
 
-    @Autowired
+
     private UserMapper userMapper;
+
+    public UserResources(UserMapper userMapper) {
+        this.userMapper = userMapper;
+    }
 
     @GetMapping("/all")
     public List<UserModel> obtenerUsuarios(){
